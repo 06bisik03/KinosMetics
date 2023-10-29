@@ -1,0 +1,22 @@
+.container {
+    width:100%;
+    height: 200vh;
+    display: grid;
+    grid-template-rows: 0% 20% 80%;
+    background-color: red;
+}
+.back {
+    width:100%;
+    background-image: url('/public/images/kumsaati.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.details {
+    width:100%;
+    background-color: blue;
+}

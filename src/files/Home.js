@@ -7,8 +7,8 @@ const Home = () => {
       <Navbar highlight="home" />
       <div className={styles.slogan}>
         <div className={styles.sloganContent}>
-          <h1>
-            <span>Redefine</span>
+          <h1 className={styles.sloganWhite}>
+            <span> Redefine</span>
 
             <span>Beauty: </span>
             <br/>
