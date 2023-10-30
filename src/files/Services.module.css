@@ -1,9 +1,10 @@
 .container {
     width:100%;
-    height: 200vh;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 0% 20% 80%;
-    background-color: red;
+    grid-template-rows: 0% 40% 60%;
+    background-color: black;
+
 }
 .back {
     width:100%;
@@ -17,10 +18,98 @@
     justify-content: center;
 }
 .details {
+  width:100%;
+  height:100%;
+  display: grid;
+  justify-self: center;
+
+
+}
+.detailsContent {
     width:100%;
-    background-color: blue;
+    justify-self: center;
+    align-self: center;
+    height:90%;
+    display: grid;
+  justify-content: center;
+
+
 }
 
+.serviceCont {
+  width:100%;
+  height:100%;
+  display: grid;
+  grid-template-rows: 10% 55% 25% 10% ;
+  background-color: rgb(37, 37, 37);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  cursor: pointer;
+  color:white;
+}
+.serviceCont:hover {
+  transform: scale(1.1);
+}
+.serviceCont > div:nth-child(1) {
+  font-size: 19px;
+  display: grid;
+  background: linear-gradient(to bottom right, rgb(212, 0, 149), rgb(202, 113, 81));
+  letter-spacing: .5px;
+  width:100%;
+  height:100%;
+  text-indent: 2.5%;
+  justify-self: center;
+  align-items: center;
+
+}
+.serviceCont > div:nth-child(2) {
+  width:100%;
+  height:100%;
+  position: relative;
+}
+.serviceCont > div:nth-child(2) img {
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+.serviceCont > div:nth-child(3) {
+  width:95%;
+  display: grid;
+  text-align: left;
+  font-size: 13px;
+  height:90%;
+  align-self: center;
+  justify-self: center;
+  line-height: 130%;
+
+
+}
+.serviceCont > div:nth-child(4) {
+  width:100%;
+  height:100%;
+  display: grid;
+  justify-items: right;
+  grid-template-columns: 50% 50%;
+  align-items: flex-end;
+
+
+
+}
+.serviceCont > div:nth-child(4) > div:nth-child(1) {
+  width: 100%;
+  height:100%;
+  text-indent: 2.5%;
+  font-size: 18px;
+  display: grid;
+  align-items: center;
+
+}
+.serviceCont > div:nth-child(4) > div:nth-child(2) {
+  width: 100%;
+  height:100%;
+  display: grid;
+align-items: flex-end;
+  justify-items: right;
+}
 
 .sloganContent {
     width: 500px;
@@ -110,3 +199,79 @@
       filter: blur(0);
     }
   }
+
+
+  .btn {
+    width:50%;
+    height:80%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+
+
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(110, 221, 255);
+    background: linear-gradient(270deg, rgba(77, 0, 118, 0.681) 0%, rgba(255, 0, 140, 0.873) 60%);
+    color: black;
+  }
+  .mySwiper {
+    width:80%;
+    height:100%;
+  }
+  .swiper {
+    width: 100%;
+  max-width: 100%;
+  max-height: 100vh;
+  min-height: 0;
+  min-width: 0;
+
+  }
+  
+  .swiperSlide {
+    font-size: 18px;
+
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+  
+  .parallaxBG{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiperSlide .title {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+  
+  .swiperSlide .subtitle {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  
+  .swiperSlide .text {
+    font-size: 17px;
+    font-weight: 400;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+  
