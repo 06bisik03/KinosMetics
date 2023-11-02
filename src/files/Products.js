@@ -14,7 +14,7 @@ const Products = () => {
             setItem(nailPolish);
             setTotalPrice(nailPolish.prod_price);
             break;
-        case "lipstick":
+        case "lipsticks":
             setItem(lipstick);
             setTotalPrice(lipstick.prod_price);
             break;

@@ -8,10 +8,10 @@ const Home = () => {
       <div className={styles.slogan}>
         <div className={styles.sloganContent}>
           <h1 className={styles.sloganWhite}>
-            <span></span>
+
             <span>Redefine</span>
-            <span>Beauty</span>
-            <span></span>
+            <span>Beauty :</span>
+
             <br/>
             <span>Your</span>
             <span>Canvas</span>

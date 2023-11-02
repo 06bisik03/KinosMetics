@@ -195,7 +195,7 @@
     overflow: hidden;
   }
   .menu .title p {
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
     transform: translateY(102%);
@@ -246,7 +246,8 @@
     transition: 0.4s;
   }
   .menu .images .image-link:hover .image {
-    transform: scale(1.2);
+    transform: scale(1.15);
+   
   }
   .menu .images .image-link:hover .image::before {
     opacity: 1;

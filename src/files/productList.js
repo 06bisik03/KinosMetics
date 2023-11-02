@@ -1,5 +1,5 @@
 export const lipstick = {
-    prod_name: "Vibrant Ruby Red Lipstick",
+    prod_name: "Velvet Rosewood Passionate Lip Color",
     prod_mat: "Creamy Matte",
     prod_price: "49.99",
     prod_size: "4.5g",
@@ -10,7 +10,7 @@ export const lipstick = {
     prod_img: "/images/lips.jpg",
 };
 export const nailPolish = {
-    prod_name: "Sparkling Sapphire Nail Polish",
+    prod_name: "Galactic Sapphire Shimmering Lacquer",
     prod_mat: "Long-lasting Gel Formula",
     prod_price: "29.99",
     prod_size: "15 ml",
@@ -21,7 +21,7 @@ export const nailPolish = {
     prod_img: "/images/nail.jpg",
 };
 export const eyeliner = {
-    prod_name: "Precision Black Liquid Eyeliner",
+    prod_name: "Starry Night Opulence Liquid Eyeliner",
     prod_mat: "Waterproof Formula",
     prod_price: "39.99",
     prod_size: "2.5 ml",
@@ -29,11 +29,11 @@ export const eyeliner = {
     prod_aroma: "Subtle Rose Fragrance",
     prod_publication: "New Arrival",
     prod_origin: "Germany",
-    prod_img: "/images/perfume.jpg",
+    prod_img: "/images/eyeliner.jpg",
 };
 
 export const perfume = {
-    prod_name: "Eternal Rose Perfume",
+    prod_name: "Enchanted Moonlit Gardenia Elixir",
     prod_mat: "Eau de Parfum",
     prod_price: "149.99",
     prod_size: "50 ml",
@@ -41,5 +41,5 @@ export const perfume = {
     prod_aroma: "Subtle Rose Fragrance",
     prod_publication: "Signature Collection",
     prod_origin: "France",
-    prod_img: "/images/eyeliner.jpg",
+    prod_img: "/images/perfume.jpg",
 };

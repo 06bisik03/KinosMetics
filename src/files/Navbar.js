@@ -51,26 +51,26 @@ const Navbar = ({highlight}) => {
           </ul>
           <div class="gallery">
             <div class="title">
-              <p>KinosMetics Specialities</p>
+              <p>Our All-Time Best Selling Products</p>
             </div>
             <div class="images">
               <a class="image-link" href="/products/lipsticks">
-                <div class="image" data-label="Lipsticks">
+                <div class="image" data-label="Velvet Rosewood Passionate Lip Color">
                   <img src="/images/lips.jpg" alt="" />
                 </div>
               </a>
               <a class="image-link" href="/products/nailpolishes">
-                <div class="image" data-label="Nail Polishes">
+                <div class="image" data-label="Galactic Sapphire Shimmering White Nail Lacquer">
                   <img src="/images/nail.jpg" alt="" />
                 </div>
               </a>
-              <a class="image-link" href="/products/scents">
-                <div class="image" data-label="Scents">
+              <a class="image-link" href="/products/perfume">
+                <div class="image" data-label="Enchanted Moonlit Gardenia Elixir">
                   <img src="/images/perfume.jpg" alt="" />
                 </div>
               </a>
               <a class="image-link" href="/products/eyeliners">
-                <div class="image" data-label="Eyeliners">
+                <div class="image" data-label="Starry Night Opulence Liquid Eyeliner">
                   <img src="/images/eyeliner.jpg" alt="" />
                 </div>
               </a>
