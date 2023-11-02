@@ -54,22 +54,22 @@ const Navbar = ({highlight}) => {
               <p>KinosMetics Specialities</p>
             </div>
             <div class="images">
-              <a class="image-link" href="#">
+              <a class="image-link" href="/products/lipsticks">
                 <div class="image" data-label="Lipsticks">
                   <img src="/images/lips.jpg" alt="" />
                 </div>
               </a>
-              <a class="image-link" href="#">
+              <a class="image-link" href="/products/nailpolishes">
                 <div class="image" data-label="Nail Polishes">
                   <img src="/images/nail.jpg" alt="" />
                 </div>
               </a>
-              <a class="image-link" href="#">
+              <a class="image-link" href="/products/scents">
                 <div class="image" data-label="Scents">
                   <img src="/images/perfume.jpg" alt="" />
                 </div>
               </a>
-              <a class="image-link" href="#">
+              <a class="image-link" href="/products/eyeliners">
                 <div class="image" data-label="Eyeliners">
                   <img src="/images/eyeliner.jpg" alt="" />
                 </div>

@@ -11,6 +11,7 @@
     background-image: url('/public/images/tuto.jpg');
     background-size: cover;
     background-position: center;
+    font-family: 'Edu TAS Beginner', cursive;
     color:white;
     font-size: 40px;
     display: grid;
@@ -52,6 +53,7 @@
 .serviceCont > div:nth-child(1) {
   font-size: 19px;
   display: grid;
+  
   background: linear-gradient(to bottom right, rgb(212, 0, 149), rgb(202, 113, 81));
   letter-spacing: .5px;
   width:100%;
@@ -116,7 +118,8 @@ align-items: flex-end;
 
 }
 .sloganContent h1 {
-    font-family: "Montserrat Medium";
+letter-spacing: 5px;
+  font-family: 'Edu TAS Beginner', cursive;
     max-width: 40ch;
     text-align: center;
     transform: scale(0.94);

@@ -3,7 +3,7 @@ import Home from './files/Home';
 import Services from './files/Services';
 import FlashSales from './files/FlashSales';
 import Aboutus from './files/Aboutus';
-
+import Products from "./files/Products";
 function App() {
   return (
    <BrowserRouter>
@@ -11,7 +11,8 @@ function App() {
       <Route index  element={<Home />}/>
       <Route path="/services" element={<Services />} />
       <Route path="/flashsale" element={<FlashSales />}/>
-      <Route path="/aboutus" element={<Aboutus />}/>
+      <Route path="/aboutus" element={<Aboutus />}/>\
+      <Route path="/products/:type" element={<Products />}/>
     </Routes>
    </BrowserRouter>
   )

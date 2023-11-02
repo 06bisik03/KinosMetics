@@ -12,7 +12,7 @@ const Services = () => {
       <div className={styles.back}>
         <div className={styles.sloganContent}>
           <h1>
-            <span>SERVICES</span>
+            <span>Services</span>
           </h1>
         </div>
       </div>
