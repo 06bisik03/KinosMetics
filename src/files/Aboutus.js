@@ -16,7 +16,7 @@ const Aboutus = () => {
       <div className={styles.details}>
         <div className={styles.detail}>
           <div className={styles.detailImg}>
-            <img src="/images/us2.jpg" />
+            <img alt="x"src="/images/us2.jpg" />
           </div>
           <div className={styles.detailText}>
             <div className={styles.detailTitle}>
@@ -46,12 +46,12 @@ const Aboutus = () => {
             </div>
           </div>
           <div className={styles.detailImg}>
-            <img src="/images/make.jpg" />
+            <img alt="x"src="/images/make.jpg" />
           </div>
         </div>
         <div className={styles.detail}>
           <div className={styles.detailImg}>
-            <img src="/images/cont.jpeg" />
+            <img alt="x"src="/images/cont.jpeg" />
           </div>
           <div className={styles.detailText}>
             <div className={styles.detailTitle}>
@@ -81,7 +81,7 @@ const Aboutus = () => {
             </div>
           </div>
           <div className={styles.detailImg}>
-            <img src="/images/making.jpg" />
+            <img alt="x"src="/images/making.jpg" />
           </div>
         </div>
       </div>

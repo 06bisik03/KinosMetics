@@ -55,7 +55,7 @@ const FlashSales = () => {
                   <a href={item.item_link} rel="noreferrer" target="_blank">
                       <SwiperSlide className={styles.swiperSlide}>
                     <div className={styles.imgCont}>
-                      <img src={item.item_img} />
+                      <img alt="x"src={item.item_img} />
                     </div>
                     <div className={styles.itemDetails}>
                       <div>{item.item_name}</div>

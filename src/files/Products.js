@@ -29,7 +29,7 @@ const Products = () => {
         default: 
             break;
     }
-  },[])
+  },[type])
   const changeTotal = (type) =>{
     if(type === "plus") {
         setAmount((prev) => prev+1);
@@ -48,7 +48,7 @@ const Products = () => {
       <div className={styles.productsTitle}>
         <div className={styles.productImg}>
           <div className={styles.thumbnail}>
-            <img src={item.prod_img}/>
+            <img alt="x" src={item.prod_img}/>
           </div>
         </div>
         <div className={styles.productDetail}>
@@ -57,11 +57,13 @@ const Products = () => {
             <div>${totalPrice}</div>
             <div className={styles.amount}>
               <img
+              alt="x"
                 src="/images/minus.png"
                 onClick={() => changeTotal("minus")}
               />
               <input value={amount} min="0" max="99" />
               <img
+              alt="x"
                 src="/images/pluss.png"
                 onClick={() => changeTotal("plus")}
               />
@@ -107,19 +109,19 @@ const Products = () => {
             <div className={styles.perksContent}>
               <div className={styles.perk}>
                 <div>
-                    <img src="/images/fastcargo.png"/>
+                    <img alt="x"src="/images/fastcargo.png"/>
                 </div>
                 <div>Fast and Reliable Shipping</div>
               </div>
               <div className={styles.perk}>
                 <div>
-                    <img src="/images/cargis.png"/>
+                    <img alt="x"src="/images/cargis.png"/>
                 </div>
                 <div>Free Shipping Tresholds</div>
               </div>
               <div className={styles.perk}>
                 <div>
-                <img src="/images/international.png"/>
+                <img alt="x"src="/images/international.png"/>
                 </div>
                 <div>International Shipping </div>
               </div>

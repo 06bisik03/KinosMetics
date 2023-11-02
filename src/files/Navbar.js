@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import styles from "./Navbar.css";
-import { useParams } from "react-router-dom";
+
+import "./Navbar.css";
+
 const Navbar = ({highlight}) => {
   
   return (
