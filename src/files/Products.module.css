@@ -1,7 +1,8 @@
 .container {
     width:100%;
     height:100vh;
-    background-color: red;
+background-color: black;
+color:white;
     display: grid;
     grid-template-rows: 0% 100%;
 }
@@ -9,30 +10,34 @@
     display: grid;
     width:100%;
     height:90%;
+
     align-self: flex-end;
     grid-template-columns: 50% 50%;
-    background-color: aqua;
+
+
 
 }
 .productImg {
     width:85%;
     justify-self: flex-end;
-    background-color: red;
+
     display: grid;
 }
 .productDetail{
+    background-color: white;
+    color: black;
     width:85%;
     height: 100%;
-    background-color: grey;
+
     display: grid;
     justify-self: center;
-    grid-template-rows: 15% 15% 30% 15% 25%;
+    grid-template-rows: 10% 15% 30% 15% 30%;
 }
 .thumbnail {
     width:90%;
     justify-self: center;
-    height:80%;
-    background-color: yellow;
+    height:100%;
+
     position: relative;
 }
 .thumbnail img{
@@ -42,8 +47,9 @@
     position: absolute;
 }
 .name {
-    width:100%;
-    background-color: yellowgreen;
+    width:98%;
+    justify-self: flex-end;
+    align-items: center;
     font-size: 25px;
     display: grid;
 
@@ -52,21 +58,22 @@
     width: 100%;
     display: grid;
     grid-template-columns: 40% 60%;
-    background-color: brown;
+
 
 }
 .price > div:nth-child(1) {
     width: 100%;
     font-size: 22px;
+    letter-spacing: 1.5px;
     display: grid;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
+
 }
 
 .amount {
     width:100%;
-    background-color: chocolate;
+
     display: flex;
     gap: 5%;
     justify-content: center;
@@ -76,6 +83,10 @@
     width: 25px;
     height:25px;
     cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .3s;
+}
+.amount img:hover {
+    transform: scale(1.2);
 }
 .amount input {
     width:40%;
@@ -87,15 +98,131 @@
     font-size: 16px;
 }
 .details {
-    width:100%;
-    background-color: blanchedalmond;
+    width:95%;
+    align-items: center;
+    justify-self: center;
+    display: grid;
+
+
 }
 
+.detailProduct {
+    width:100%;
+    height:80%;
+    display: grid;
+    gap: 5%;
+    grid-template-rows: repeat(6, 1fr);
+
+
+}
+.dtp {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 23% 77%;
+}
+.dtp > div:nth-child(1) {
+    width:100%;
+
+}
+.dtp > div:nth-child(2) {
+    width:100%;
+
+}
 .btn {
     width:100%;
-    background-color:violet;
+align-items: center;
+    display: flex;
+    justify-content: center;
+
 }
+
 .perks {
     width:100%;
-    background-color: chartreuse;
+    display: grid;
+
+}
+.btnBuy {
+    width: 30%;
+    height: 40%;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    color: white;
+    font-weight: 600;
+    gap: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  
+  .svgIcon {
+    width: 16px;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .btnBuy::before {
+    width: 100%;
+    height:500%;
+    position: absolute;
+    content: "";
+    background-color: rgb(255, 191, 214);
+    
+    border-radius: 50%;
+    left: -100%;
+    top: 0;
+    transition-duration: .3s;
+    mix-blend-mode: difference;
+  }
+
+  
+  .btnBuy:hover::before {
+    transition-duration: .3s;
+    transform: translate(100%,-50%);
+    border-radius: 0;
+  }
+  
+  .btnBuy:active {
+    transform: translate(5px,5px);
+    transition-duration: .3s;
+  }
+  .perksContent {
+    width:95%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5%;
+    height: 100%;
+
+    justify-self: center;
+  }
+  .perk {
+    width:100%;
+    display: grid;
+    grid-template-rows: 70% 30%;
+    height:80%;
+    align-self: center;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+
+  }
+  .perk > div:nth-child(1) {
+    width:100%;
+    display: grid;
+  }
+  .perk img{
+    width:50%;
+    justify-self: center;
+
+  }
+  .perk > div:nth-child(2) {
+    text-align: center;
+  }
+.perk:hover {
+    transform: scale(1.2);
 }
